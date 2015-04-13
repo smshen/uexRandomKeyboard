@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" 
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_q"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:text="q" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_w"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="w" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_e"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="e" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_r"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="r" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_t"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="t" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_y"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="y" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_u"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="u" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_i"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="i" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_o"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="o" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_p"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="p" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_a"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:text="a" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_s"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="s" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_d"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="d" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_f"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="f" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_g"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="g" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_h"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="h" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_j"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="j" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_k"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="k" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_l"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="l" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_btnAbcBoardAbcChange"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="-2dp"
+            android:layout_weight="1.3"
+            android:background="@drawable/plugin_randomkeyboard_key_shift_bg_select"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_z"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="z" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_x"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="x" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_c"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="c" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_v"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="v" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_b"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="b" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_n"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="n" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_key_board_abc_m"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:layout_marginLeft="1dp"
+            android:text="m" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_btnAbcBoardDel"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="1dp"
+            android:padding="1dp"
+            android:layout_weight="1.3"
+            android:background="@drawable/plugin_randomkeyboard_key_delete_bg_select" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+         <Button
+            android:id="@+id/plugin_randomkeyboard_btnAbcBoardChangeSign"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/plugin_randomkeyboard_key_changenum_bg_select"
+            android:text="符"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_btnAbcBoardChangeNum"
+            style="@style/plugin_randomkeyboard_key_board_abc_btn_bg"
+            android:background="@drawable/plugin_randomkeyboard_key_changenum_bg_select"
+            android:text="123"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_btnAbcBoardSpace"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="4"
+            android:background="@drawable/plugin_randomkeyboard_key_space_layer"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_btnAbcBoardOk"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@drawable/plugin_randomkeyboard_key_sure_bg_select"
+            android:text="完成"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

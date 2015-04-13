@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/plugin_randomkeyboard_linearLayoutKeyBoard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center_horizontal|bottom"
+    android:background="@color/gray"
+    android:clickable="true"
+    android:visibility="gone" >
+<!--    android:background="@drawable/plugin_randomkeyboard_keypad_title_bg"
+		android:background="@color/plugin_randomkeyboard_transparent"-->
+    <LinearLayout
+        android:id="@+id/plugin_randomkeyboard_keypad_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/plugin_randomkeyboard_keypad_title_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="7" >
+
+        <ImageView
+            android:id="@+id/plugin_randomkeyboard_imgViewBoardTopIcon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp" />
+
+        <TextView
+            android:id="@+id/plugin_randomkeyboard_txtBoardTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="安全键盘"
+            android:textColor="#707f93"
+            android:textSize="17sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/plugin_randomkeyboard_keypad_titlebg_down_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_btnBoardCancle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:padding="5dp">
+            </Button>
+            <ImageView 
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/plugin_randomkeyboard_keypad_titlebg_down_xml"
+                android:scaleType="center"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- 数字键盘 -->
+
+    <LinearLayout
+        android:id="@+id/plugin_randomkeyboard_keypad_num"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/plugin_randomkeyboard_keypad_title_layout"
+        android:background="@color/transparent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <include layout="@layout/plugin_randomkeyboard_number" />
+    </LinearLayout>
+    <!-- 全键盘 -->
+
+    <LinearLayout
+        android:id="@+id/plugin_randomkeyboard_keypad_abc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/plugin_randomkeyboard_keypad_title_layout"
+        android:background="@color/transparent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <include layout="@layout/plugin_randomkeyboard_abcs" />
+    </LinearLayout>
+    <!-- 符号1 -->
+
+    <LinearLayout
+        android:id="@+id/plugin_randomkeyboard_key_board_sign"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/plugin_randomkeyboard_keypad_title_layout"
+        android:background="@color/transparent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <include layout="@layout/plugin_randomkeyboard_signs" />
+    </LinearLayout>
+
+</RelativeLayout>

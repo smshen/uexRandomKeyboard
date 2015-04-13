@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="4.5" >
+
+    <LinearLayout
+        android:id="@+id/plugin_randomkeyboard_linearLayoutSignBoardOne"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="4"
+        android:background="@color/transparent"
+        android:orientation="vertical" 
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_1"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:text="@string/plugin_randomkeyboard_char_60"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_2"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_62" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_3"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_123" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_4"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_125" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_5"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:text="@string/plugin_randomkeyboard_char_40" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_6"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_41" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_7"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_91" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_8"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_93" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_9"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:text="@string/plugin_randomkeyboard_char_36" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_10"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_61" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_11"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_92" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_12"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_124" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_13"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_weight="1"
+                android:text="@string/plugin_randomkeyboard_char_38"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_14"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:text="@string/plugin_randomkeyboard_char_37" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_15"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:text="@string/plugin_randomkeyboard_char_94" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_16"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:text="@string/plugin_randomkeyboard_char_96" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/plugin_randomkeyboard_linearLayoutSignBoardTwo"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="4"
+        android:background="@color/transparent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_17"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:text="@string/plugin_randomkeyboard_char_44"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_18"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_46" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_19"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_63" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_20"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_33" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_21"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:text="@string/plugin_randomkeyboard_char_58" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_22"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_59" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_23"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_64" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_24"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_126" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_25"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:text="@string/plugin_randomkeyboard_char_95" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_26"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_45" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_27"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_34" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_28"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:text="@string/plugin_randomkeyboard_char_39" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_29"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_weight="1"
+                android:text="@string/plugin_randomkeyboard_char_47"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_30"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:text="@string/plugin_randomkeyboard_char_35" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_31"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:text="@string/plugin_randomkeyboard_char_42" />
+
+            <Button
+                android:id="@+id/plugin_randomkeyboard_key_pad_sign_32"
+                style="@style/plugin_randomkeyboard_key_board_sign_btn_bg"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:text="@string/plugin_randomkeyboard_char_43" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="0.5dp"
+        android:layout_weight="0.5"
+        android:background="@color/transparent"
+        android:orientation="vertical"
+        android:weightSum="4" >
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_btnSignBoardUp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/plugin_randomkeyboard_key_up_bg_select" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_btnSignBoardDown"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/plugin_randomkeyboard_key_down_bg_select" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_btnSignBoardDel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/plugin_randomkeyboard_key_delete_bg_select" />
+
+        <Button
+            android:id="@+id/plugin_randomkeyboard_btnSignBoardBack"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/plugin_randomkeyboard_key_back_bg_select"
+            android:text="返回"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

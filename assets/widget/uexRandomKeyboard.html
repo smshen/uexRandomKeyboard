@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport"
+	content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="js/zy_control.js"></script>
+	<script src="js/zy_click.js"></script>
+	<script type="text/javascript">
+	var a = 50;
+	window.uexOnload = function(){
+		//alert("onload");
+		a = 50;
+		uexRandomKeyboard.onGetContent = onGetContent;
+		uexRandomKeyboard.onGetReturn = onGetReturn;
+		//initdata();
+    }
+    function onGetContent(id, opid, key){
+        alert(key);
+    }
+    
+    function onGetReturn(id, opid, key){
+        alert(key);
+    }
+    function setdata(){
+    var money = 1000 + "元起";
+    	var filearray ='{"name":{"text":"qqqqqq","placeHolder":"66666"},"passWord":{"text":"123456","placeHolder":"99999"}}';
+    	//var f = '{"name":{"text":"qqqqqq","placeHolder":""},"passWord":{"text":"","placeHolder":"'+ money + '"}}';
+    	
+    	uexRandomKeyboard.setData(filearray);
+    }
+    function setFocus(){
+    	uexRandomKeyboard.setFirstResponder("2");
+    }
+    
+	function initdata(){
+	//uexRandomKeyboard.close();
+        //var s = window.getComputedStyle($$('content'),null);
+        //var s = window.getComputedStyle($$('content'),null);
+        var x = 0;
+//      var y = $$("header").offsetHeight;
+        var y = 650;
+        var w = 1000;
+        var h = 100;
+        
+        var jsonData = '{"fontSize":"60","fontColor":"#000000","placeholderText":"请输入帐号","secureTextEntry":"0","backgroundColor":"#00FF00","randomLetterKeyboard":"0","randomDigitalKeyboard":"0","defaultKeyboard":"0","isSystemKeyboard":"0","isTextRight":"0"}';
+        
+        uexRandomKeyboard.open(x,y,w,h,jsonData);
+    }
+    function initdata1(){
+        var x = 76;
+        var y = 1812;
+        var w = 411;
+        var h = 156;
+        
+        var jsonData = '{"fontSize":"60","fontColor":"#000000","placeholderText":"请输入密码","secureTextEntry":"1","backgroundColor":"#00FF00","randomLetterKeyboard":"0","randomDigitalKeyboard":"0","defaultKeyboard":"0","isSystemKeyboard":"1","isTextRight":"1"}';
+        
+        uexRandomKeyboard.open(x,y,w,h,jsonData);
+        uexRandomKeyboard.setFirstResponder("2");
+    }
+    
+    function exitapp(){
+        uexRandomKeyboard.close();
+        
+    }
+    function clearData(){
+    	var clearName = '{"type":"name"}';
+    	var clearpassword = '{"type":"passWord"}';
+        uexRandomKeyboard.clearData(clearName);
+        uexRandomKeyboard.clearData(clearpassword);
+        
+    }
+
+</script>
+	<div class="tit">uexRandomKeyboard对象</div>
+</head>
+
+<body>
+
+	<div class="conbor">
+		<div class="consj">
+		<a href ="index3.html">随机键盘插件测试</a>
+		<input class="btn" type="button" value="清除" onclick="clearData();">
+		<input class="btn" type="button" value="设置数据" onclick="setdata();">
+		<input class="btn" type="button" value="设置焦点" onclick="setFocus();">
+			<input class="btn" type="button" value="打开帐号键盘" onclick="initdata();">
+			<input class="btn" type="button" value="打开密码键盘" onclick="initdata1();">
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input class="btn" type="button" value="关闭键盘" onclick="exitapp();"><br><br>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+			<input type="text" class="textbox" id="outPath" value="测试原生html input"></input>
+		</div>
+	</div>
+</body>
+</html>

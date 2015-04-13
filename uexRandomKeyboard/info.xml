@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+	<plugin
+       uexName="uexRandomKeyboard" version="3.0.16" build="16">
+		<info>16:部分优化</info>
+		<build>15:对于input显示的优化,修正部分bug</build>
+		<build>14:新增初始化参数isTextRight,当值为1时设置input显示字体为右侧对齐</build>
+		<build>13:修复popwindow状态下焦点设置失效的问题</build>
+		<build>12:增加可实现让input获取焦点的接口,遗留bug修复</build>
+		<build>11:增加可调用原生键盘的input</build>
+		<build>10:修正切换页面后，input无法输入的bug</build>
+		<build>9:修正滚动bug,修正页面切换时input还在的bug</build>
+		<build>8:设置取消覆盖点击拦截,并设置每次点击键盘都给页面一个内容回调</build>
+		<build>7:新增接口setData设置数据,将回调判断是否点击完成键合并至输入内容回调中</build>
+		<build>6:新增接口clearData清除数据,新增回调判断是否点击完成键</build>
+		<build>5:部分bug的调整</build>
+		<build>4:增加是否随机生成键盘的参数,对键盘布局的调整</build>
+		<build>3:增加键盘弹出时会推移屏幕的功能</build>
+		<build>2:修复字体大小的问题</build>
+		<build>1:修复横屏高度变为全屏的bug,修复输入框透明度问题</build>
+		<build>0:随机键盘插件初始版本</build>
+    </plugin>
+</uexplugins>

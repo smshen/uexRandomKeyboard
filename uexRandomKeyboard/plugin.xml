@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+	<plugin
+        className="org.zywx.wbpalmstar.plugin.randomkeyboard.EUExRandomKeyboard" uexName="uexRandomKeyboard" >
+        <method name="open" />
+        <method name="close" />
+        <method name="clearData" />
+        <method name="setData" />
+        <method name="setFirstResponder" />
+        
+    </plugin>
+</uexplugins>

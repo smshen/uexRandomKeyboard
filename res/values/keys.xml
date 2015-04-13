@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <!-- ! -->
+    <string name="plugin_randomkeyboard_char_33">&#033;</string>
+    <!-- " -->
+    <string name="plugin_randomkeyboard_char_34">\&#034;</string>
+    <!-- # -->
+    <string name="plugin_randomkeyboard_char_35">\&#035;</string>
+    <!-- $ -->
+    <string name="plugin_randomkeyboard_char_36">&#036;</string>
+    <!-- % -->
+    <string name="plugin_randomkeyboard_char_37">&#037;</string>
+    <!-- & -->
+    <string name="plugin_randomkeyboard_char_38">&#038;</string>
+    <!-- ' -->
+    <string name="plugin_randomkeyboard_char_39">\&#039;</string>
+    <!-- ( -->
+    <string name="plugin_randomkeyboard_char_40">&#040;</string>
+    <!-- ) -->
+    <string name="plugin_randomkeyboard_char_41">&#041;</string>
+    <!-- * -->
+    <string name="plugin_randomkeyboard_char_42">&#042;</string>
+    <!-- + -->
+    <string name="plugin_randomkeyboard_char_43">&#043;</string>
+    <!-- , -->
+    <string name="plugin_randomkeyboard_char_44">&#044;</string>
+    <!-- - -->
+    <string name="plugin_randomkeyboard_char_45">&#045;</string>
+    <!-- . -->
+    <string name="plugin_randomkeyboard_char_46">&#046;</string>
+    <!-- / -->
+    <string name="plugin_randomkeyboard_char_47">&#047;</string>
+    <!-- : -->
+    <string name="plugin_randomkeyboard_char_58">&#058;</string>
+    <!-- ; -->
+    <string name="plugin_randomkeyboard_char_59">&#059;</string>
+    <!-- < -->
+    <string name="plugin_randomkeyboard_char_60">&#060;</string>
+    <!-- = -->
+    <string name="plugin_randomkeyboard_char_61">&#061;</string>
+    <!-- > -->
+    <string name="plugin_randomkeyboard_char_62">&#062;</string>
+    <!-- ? -->
+    <string name="plugin_randomkeyboard_char_63">\&#063;</string>
+    <!-- @ -->
+    <string name="plugin_randomkeyboard_char_64">\&#064;</string>
+    <!-- [ -->
+    <string name="plugin_randomkeyboard_char_91">&#091;</string>
+    <!-- \ -->
+    <string name="plugin_randomkeyboard_char_92">\&#092;</string>
+    <!-- ] -->
+    <string name="plugin_randomkeyboard_char_93">&#093;</string>
+    <!-- ^ -->
+    <string name="plugin_randomkeyboard_char_94">&#094;</string>
+    <!-- _ -->
+    <string name="plugin_randomkeyboard_char_95">&#095;</string>
+    <!-- ` -->
+    <string name="plugin_randomkeyboard_char_96">&#096;</string>
+    <!-- { -->
+    <string name="plugin_randomkeyboard_char_123">&#0123;</string>
+    <!-- | -->
+    <string name="plugin_randomkeyboard_char_124">&#0124;</string>
+    <!-- } -->
+    <string name="plugin_randomkeyboard_char_125">&#0125;</string>
+    <!-- ~ -->
+    <string name="plugin_randomkeyboard_char_126">&#0126;</string>
+    <string name="plugin_randomkeyboard_strsign1">\\</string>
+    <string name="plugin_randomkeyboard_strsign2">\"</string>
+    <string name="plugin_randomkeyboard_strsign">\&#064;\&#035;&#037;</string>
+
+</resources>

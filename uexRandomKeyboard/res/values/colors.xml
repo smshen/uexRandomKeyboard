@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<!-- plugin RandomKeyboard color -->
+    <color name="plugin_randomkeyboard_titlecolor">#fffff3 </color>
+    <color name="plugin_randomkeyboard_deepblue">#214263</color>
+    <color name="plugin_randomkeyboard_btn_cover">#70000000</color>
+    <color name="plugin_randomkeyboard_menu_text_pressed_color">#f3790b</color>
+    <color name="plugin_randomkeyboard_menu_text_normal_color">#626262</color>
+    <color name="plugin_randomkeyboard_main_right_bg">#242527</color>
+    <color name="plugin_randomkeyboard_bitmapbackgroundcolor">#FFFFF0</color>
+    <color name="plugin_randomkeyboard_viewfinder_mask">#60000000</color>
+    <color name="plugin_randomkeyboard_result_view">#b0000000</color>
+    <color name="plugin_randomkeyboard_viewfinder_frame">#ff000000</color>
+    <color name="plugin_randomkeyboard_viewfinder_laser">#ffff0000</color>
+    <color name="plugin_randomkeyboard_possible_result_points">#c0ffff00</color>
+    <color name="plugin_randomkeyboard_inner_view_page_color">#c8c8c8</color>
+    <color name="plugin_randomkeyboard_listview_item_color">#707f93</color>
+    <color name="plugin_randomkeyboard_nine_point_line_color">#70F7F5</color>
+	<color name="plugin_randomkeyboard_dark_gray">#ff585858</color>
+	<color name="plugin_randomkeyboard_transparent">#60000000</color>
+</resources>
